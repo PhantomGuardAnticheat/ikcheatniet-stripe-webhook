@@ -1,6 +1,32 @@
 {
+  "name": "ikcheatniet-stripe-webhook",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-and-start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhantomGuardAnticheat/ikcheatniet-stripe-webhook.git"
+  },
+  "keywords": [
+    "stripe",
+    "webhook",
+    "ikcheatniet",
+    "phantomguard"
+  ],
+  "author": "PhantomGuard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PhantomGuardAnticheat/ikcheatniet-stripe-webhook/issues"
+  },
+  "homepage": "https://github.com/PhantomGuardAnticheat/ikcheatniet-stripe-webhook#readme",
   "dependencies": {
     "@types/node": "^22.15.21",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "stripe": "^18.1.1",
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"
   }
