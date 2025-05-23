@@ -1,0 +1,6 @@
+-- Discord Bot --
+When purchase is successful then add role to provided Discord ID, role ID: 1351533792728453182
+Purchase lookup & logs, etc.
+
+-- Webhook --
+Handle everything from Stripe, subscription ending, etc.
